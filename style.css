@@ -1,0 +1,95 @@
+table {
+  border: 3px outset #c6c6c6;
+  width: 600px;
+  text-align: left;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+tr {
+  width: 100%;
+}
+
+th {
+  border: 1px inset #c6c6c6;
+  text-align: center;
+  margin: 4px 4px 2px 4px;
+  color: #ff0200;
+  background-color: #feffaa;
+  width: 50%;
+  font-size: 20pt;
+}
+
+input {
+  position: left;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+textarea {
+  padding: 10px 15px;
+  margin-left: 20px;
+}
+
+.leftcol {
+  width: 34%;
+  box-sizing: border-box;
+  text-align: center;
+  margin-right: 2px;
+  margin-left: 0px;
+}
+
+.buttons {
+  width: 98%;
+  text-align: center;
+}
+
+input[type="button"] {
+  padding: 5px 50px;
+  margin: 3px;
+  font-size: 16pt;
+}
+
+input[type="reset"] {
+  padding: 5px 50px;
+  margin: 3px 0px;
+  font-size: 16pt;
+}
+
+input[type="submit"] {
+  padding: 5px 50px;
+  margin: 3px;
+  font-size: 16pt;
+}
+
+td {
+  border: 1px inset #c6c6c6;
+  text-align: left;
+  margin-left: 2px;
+  margin-right: 0px;
+  width: 64.63%;
+  height: 100%;
+  display: inline-block;
+}
+
+#name,
+#password,
+#age {
+  padding-bottom: 6px;
+  padding-top: 6.5px;
+}
+
+#photo {
+  padding-bottom: 7px;
+  padding-top: 7.5px;
+}
+
+#address {
+  padding-bottom: 21px;
+  padding-top: 22px;
+}
+
+#game {
+  padding-bottom: 44px;
+  padding-top: 44px;
+}

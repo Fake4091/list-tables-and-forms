@@ -8,45 +8,52 @@
     <form>
       <table>
         <tr>
-          <th rowspan="2" class="header">Registration Form</th>
+          <th colspan="2" class="header">Registration Form</th>
         </tr>
         <tr>
-          <td>Enter Name</td>
+          <td class="leftcol" id="name">Enter Name</td>
           <td><input type="text" /></td>
         </tr>
         <tr>
-          <td>Enter Password</td>
+          <td class="leftcol" id="password">Enter Password</td>
           <td><input type="text" /></td>
         </tr>
         <tr>
-          <td>Enter Address</td>
+          <td class="leftcol" id="address">Enter Address</td>
           <td><textarea></textarea></td>
         </tr>
         <tr>
-          <td>Select Game</td>
-          <td><input type="checkbox">Hockey</input></td>
-          <td><input type="checkbox">Football</input></td>
-          <td><input type="checkbox">Badminton</input></td>
-          <td><input type="checkbox">Cricket</input></td>
-          <td><input type="checkbox">volleyball</input></td>
+          <td class="leftcol" id="game">Select Game</td>
+          <td class="checkboxes">
+            <input type="checkbox" id="hockey"/>
+            <label for="hockey">Hockey</label><br/>
+            <input type="checkbox" id="football"/>
+            <label for="football">Football</label><br/>
+            <input type="checkbox" id="badminton"/>
+            <label for="badminton">Badminton</label><br/>
+            <input type="checkbox" id="cricket"/>
+            <label for="cricket">Cricket</label><br/>
+            <input type="checkbox" id="volleyball"/>
+            <label for="volleyball">Volleyball</label><br/>
+          </td>
         </tr>
         <tr>
-          <td>Gender</td>
+          <td class="leftcol" id="gender">Gender</td>
           <td>
             <input type="radio">Male</input>
             <input type="radio">Female</input>
           </td>
         </tr>
         <tr>
-          <td>Select ur Age</td>
+          <td class="leftcol" id="age">Select ur Age</td>
           <td><input type="number" title="Select" min=0 max=150 /></td>
         </tr>
         <tr>
-          <td>Select Photo</td>
+          <td class="leftcol" id="photo">Select Photo</td>
           <td><input type="file" id="userPhoto" name="filename" accept="image/*"/></td>
         </tr>
         <tr>
-          <td rowspan="2">
+          <td colspan="2" class="buttons">
             <input type="button" value="Click Me" />
             <input type="reset" value="Reset" />
             <input type="submit" value="Submit" />
