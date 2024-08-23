@@ -2,8 +2,6 @@ table {
   border: 3px outset #c6c6c6;
   width: 600px;
   text-align: left;
-  display: inline-block;
-  box-sizing: border-box;
 }
 
 tr {
@@ -32,11 +30,11 @@ textarea {
 }
 
 .leftcol {
-  width: 34%;
+  width: 25%;
   box-sizing: border-box;
-  text-align: center;
   margin-right: 2px;
   margin-left: 0px;
+  padding-left: 10px;
 }
 
 .buttons {
@@ -66,10 +64,10 @@ td {
   border: 1px inset #c6c6c6;
   text-align: left;
   margin-left: 2px;
+  padding-right: auto;
   margin-right: 0px;
-  width: 64.63%;
+  width: auto;
   height: 100%;
-  display: inline-block;
   background-color: #03ccff;
 }
 
